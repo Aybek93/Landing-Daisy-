@@ -1,0 +1,703 @@
+@import url(reset.css);
+body {
+	font: 14px Arial;
+	color: #fff;
+}
+* {
+	line-height: 16px !important;
+}
+span {
+	color: #fc635e;
+}
+.clear:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+header {
+	margin: 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+background: url(../img/firstBg.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+width: 100%;
+position: relative;
+
+}
+	.logo {
+		margin: 20px 0 0 11%;
+		float: left;
+	}
+		.menu {
+			float: right;
+			 margin: 3.6% 15% 0 0;
+		}
+			.menu ul li {
+				float: left;
+				margin-left: 30px;
+			}
+				.menu ul li a {
+					text-decoration: none;
+					color: #fff;
+					font: 15px Arial;
+					text-transform: uppercase;
+				}
+					.menu ul li a:hover {
+						color: #fc635e;
+						border-bottom: 3px solid #fc635e;
+						padding-bottom: 5px;
+						-wekit-transition: all .40s;
+						-o-transition: all .40s;
+						transition: all .40s;
+
+					}
+	.lineBgFirst  {
+		margin: 200px 0 0 11%;
+		float: left;
+	}
+	.lineBgSecond {
+		margin: 200px 11% 0 0;
+		float: right;
+	}
+	.headerText {
+		float: left;
+		margin: 200px 0 0 1%;
+		
+
+	}
+		.headerText h1 {
+			font-size: 51px;
+			text-transform: uppercase;
+			padding-bottom: 40px;
+		}
+			.headerText h2 {
+			font-size: 24px;
+			padding-left: 10%;
+		}
+	.headerBtn {
+		width: 205px;
+		height: 56px;
+		float: left;
+		margin-left: 42%;
+    	margin-top: 96px;
+}
+		.headerBtn a {
+			display: block;
+		} 
+	.headerMous {
+		float: right;
+		margin-right: 33%;
+		overflow: hidden; 
+		margin-top: 109px;
+	}
+.slider {
+	left: 657px;
+    position: absolute;
+    top: 770px;
+
+}
+figure {
+	min-width: 900px;
+	max-width: 1400px;
+	margin: 0 auto;
+	font: 15px Arial;
+	color: #adadad;
+	overflow: hidden;
+	position: relative;
+}
+figure h1 {
+	font-size: 28px;
+	font-family: "Myriad Pro";
+	color: #868686;
+	margin: 65px auto 0 auto;
+	width: 340px;
+	border-bottom: 2px solid #adadad;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 12px;
+}
+figure h2 {
+	padding-top: 20px;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	text-align: center;
+    line-height: 25px !important;
+}
+.kub {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 80px 4% 100px 5%;
+	overflow: hidden;
+	
+}
+.kub h3 {
+	text-transform: uppercase;
+	font: 20px "Myriad Pro"; 
+	padding-top:20px;
+	padding-bottom: 10px;	
+}
+.kub li {
+	font-size: 15px;
+}
+
+.sliderWhite {
+	left: 657px;
+    position: absolute;
+    top: 540px;
+    overflow: hidden;
+	
+}
+.expand {
+margin: 0 auto;
+min-width: 900px;
+max-width: 1400px;
+background: url(../img/secondBg.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow: hidden;
+width: 100%;
+position: relative;
+
+}
+	.expand h1 {
+		font: 51px Arial;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 255px;
+	}
+		.expand a {
+			display: block;
+			width: 205px;
+			height: 56px;
+			margin: 65px auto 223px;
+		}
+			.nextSlider {
+			left: 657px;
+   			position: absolute;
+    		top: 510px;
+    		overflow: hidden;
+    		margin-bottom: 60px;
+			}
+.step {
+	min-height: 840px;
+	margin: 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+	background: url(../img/shema.png) no-repeat 273px 200px;
+	overflow: hidden;
+	position: relative;
+
+} 
+	.step h1 {
+		color: #868686;
+		font: 28px Arial;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 50px;
+		padding-bottom: 10px;
+
+	}
+		.step h2 {
+			color: #adadad;
+			font: 20px Arial;
+			text-align: center;
+			line-height: 25px !important;
+		}
+hr { 
+	height: 2px;
+	background-color: #adadad;
+}
+.shema {
+	position: absolute;
+	top:296px;
+	left: 310px;
+	width: 140px;
+}
+	.shema h1, .shema2 h1, .shema3 h1, .shema4 h1{
+		font-size: 24px;
+		padding-bottom: 5px;
+	}
+		.shema p, .shema2 p, .shema3 p, .shema4 p{
+			color: #adadad;
+			font-size: 15px;
+		}
+.shema2 {
+	position: absolute;
+	top: 350px;
+	left: 575px;
+	width: 140px;
+}
+.shema3 {
+	position: absolute;
+	top: 202px;
+	left: 660px;
+	width: 140px;
+}
+.shema4 {
+	position: absolute;
+	top: 292px;
+	left: 838px;
+	width: 200px;
+}
+				.sliderStep {
+					left: 657px;
+    				position: absolute;
+   				 	top: 800px;
+   				 	overflow: hidden;
+				}
+.landing {
+	background-color: #f2f2f2;
+	margin: 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+.landing h1 {
+	font: 28px Arial;
+	color: #868686;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+.landing .landingDiv {
+	float: left;
+	width: 400px;
+	margin-left: 160px;
+	margin-top: 40px;
+}
+.landingDiv .lan {
+	text-align: left;
+	background: url(../img/Prug.png) no-repeat;
+	padding-left: 30px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+.landingDiv p{
+	color: #9e9898;
+	font: 15px Arial;
+	line-height: 20px !important;
+	margin-bottom: 50px;
+}
+.landing .img {
+	display: block;
+	float: right;
+	margin-top: 70px;
+	margin-right: 160px;
+	margin-bottom: 80px;
+}
+					.sliderGray {
+						left: 657px;
+    					position: absolute;
+   				 		top: 540px;
+   				 		overflow: hidden;
+					}
+.landingSecond {
+	background: #fff;
+	margin: 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 10px;
+	padding-top: 60px;
+}
+.landingSecond h1  {
+	font: 28px Arial;
+	color: #868686;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.landingSecond .landingDiv {
+	float: right;
+	width: 400px;
+	margin-right: 160px;
+	margin-top: 90px;
+}
+.landingDiv .lann {
+	text-align: right;
+	background: url(../img/Prug.png) no-repeat;
+	background-position: right;
+	padding-right: 30px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+.landingDiv p{
+	color: #9e9898;
+	font: 15px Arial;
+	line-height: 20px !important;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+.landingDiv .btnn {
+	display: block;
+	float: right;
+}
+.landingSecond .img {
+	display: block;
+	float: left;
+	margin-top: 70px;
+	margin-left: 160px;
+	margin-bottom: 150px;
+}
+
+.landingThree {
+	background-color: #f2f2f2;
+	margin: 10px auto 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+.landingThree h1 {
+	font: 28px Arial;
+	color: #868686;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+.landingThree .landingDiv {
+	float: left;
+	width: 400px;
+	margin-left: 160px;
+	margin-top: 80px;
+}
+.landingDiv .lan {
+	text-align: left;
+	background: url(../img/Prug.png) no-repeat;
+	padding-left: 30px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+.landingDiv p{
+	color: #9e9898;
+	font: 15px Arial;
+	line-height: 20px !important;
+	margin-bottom: 50px;
+}
+.landingThree .img {
+	display: block;
+	float: right;
+	margin-top: 110px;
+	margin-right: 160px;
+	margin-bottom: 180px;
+}
+					.sliderGray {
+						left: 657px;
+    					position: absolute;
+   				 		top: 540px;
+   				 		overflow: hidden;
+					}
+.portfolio {
+
+	margin: 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+	overflow: hidden;
+	position: relative;
+}
+.portfolio h1 {
+	font: 28px Arial;
+	color: #868686;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+	.portfolio .port {
+		border-bottom: 2px solid #adadad;
+		border-top: 2px solid #adadad;
+		margin: 35px auto 0 auto;
+    	width: 1010px;
+		padding: 20px 0 20px;
+		overflow: hidden;
+	}
+		.portfolio .port li {
+			float: left;
+			background: url(../img/figure.png) no-repeat;
+			background-position: left;
+			padding: 0 52px;
+			
+		}
+			.portfolio .port li a {
+				display: block;
+				text-decoration: none;
+				color: #fc635e;
+				font: 20px Arial;
+				text-transform: uppercase;
+
+			}
+			.portfolio .port li:first-child {
+				background-image: none;
+			}
+			.block {
+				width: 926px;
+				margin: 40px auto 0 auto
+			}
+				.block a {
+					display: block;
+					width: 192px;
+					margin: 50px auto
+				}
+				.block .btn2 {
+					display: block;
+					width: 28px;
+					margin: 20px auto
+				}
+				.qwerty {
+					float: left;
+					width: 458px;
+					
+				}
+					.qwerty2 {
+					float: left;
+					width: 458px;
+					margin-left: 10px
+				}
+/*-----------------*/
+/***** Apollo *****/
+/*-----------------*/
+
+.effect {
+	position: relative;
+	width: 458px;
+	height: 200px;
+	overflow: hidden;
+	margin: 10px 0;
+}
+		.effect .caption {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			background: rgba(255, 126, 124, 0.77);
+			color: #fff;
+			opacity: 0;
+ 			 transition: all 0.3s linear 0s;
+			-webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+			-o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+			-ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			-moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			cursor: pointer;
+}
+.effect:hover .caption {
+  top: 0px;
+}
+.effect .caption h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  position: relative;
+  top: 19px;
+  transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+-o-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;  
+-ms-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+-moz-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+text-align: left;
+
+}
+.effect:hover h4,
+.effect:hover a {
+  top: 0px;
+  opacity: 1;
+}
+.effect .caption a {
+
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+  margin: 15px auto 0px auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.9s linear 0s;
+  -webkit-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s;
+			-o-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s;  
+			-ms-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			-moz-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+opacity: 1;
+}
+.effect:hover .caption{
+  opacity: 1;
+}
+/*-----------------*/
+/*------effectSecond-----------*/
+/*-----------------*/
+.effectSecond {
+	position: relative;
+	width: 224px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	margin-right:5px; 
+}
+		.effectSecond .caption {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			background: rgba(255, 126, 124, 0.77);
+			color: #fff;
+			opacity: 0;
+ 			 transition: all 0.3s linear 0s;
+			-webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+			-o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+			-ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			-moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			cursor: pointer;
+}
+.effectSecond:hover .caption {
+  top: 0px;
+}
+.effectSecond .caption h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  position: relative;
+  top: 19px;
+  transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+-o-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;  
+-ms-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+-moz-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+text-align: left;
+
+}
+.effectSecond:hover h4,
+.effectSecond:hover a {
+  top: 0px;
+  opacity: 1;
+}
+.effectSecond .caption a {
+
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+  margin: 15px auto 0px auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.9s linear 0s;
+  -webkit-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s;
+			-o-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s;  
+			-ms-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			-moz-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+opacity: 1;
+}
+.effectSecond:hover .caption{
+  opacity: 1;
+}
+/*-----------------*/
+/*------effectThree-----------*/
+/*-----------------*/
+.effectThree {
+	position: relative;
+	width: 224px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	margin-left: 5px;
+}
+		.effectThree .caption {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			background: rgba(255, 126, 124, 0.77);
+			color: #fff;
+			opacity: 0;
+ 			 transition: all 0.3s linear 0s;
+			-webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+			-o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;  
+			-ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			-moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			cursor: pointer;
+}
+.effectThree:hover .caption {
+  top: 0px;
+}
+.effectThree .caption h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  position: relative;
+  top: 19px;
+  transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+-o-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;  
+-ms-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+-moz-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s; 
+text-align: left;
+
+}
+.effectThree:hover h4,
+.effectThree:hover a {
+  top: 0px;
+  opacity: 1;
+}
+.effectThree .caption a {
+
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+  margin: 15px auto 0px auto;
+  position: relative;
+  top: 0px;
+  transition: all 0.9s linear 0s;
+  -webkit-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s;
+			-o-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s;  
+			-ms-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			-moz-transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+			transition: all 0.9s cubic-bezier(0.4, 0, 1, 1) 0s; 
+opacity: 1;
+}
+.effectThree:hover .caption{
+  opacity: 1;
+}
+/*------------------------------*/
+
+.row {
+	margin: 0 auto;
+	min-width: 900px;
+	max-width: 1400px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+.row h1 { 
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fc635e;
+	margin-bottom: 12px;
+	padding-top: 60px;
+}
